@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+h1{
+  color: #f4f4f4;
+}
+.App {
+  text-align: center;
+  background: black;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.background {
+  background: #ececec;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.password-display {
+  font-size: 18px;
+  padding: 10px;
+  flex: 1;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.copy-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-btn:hover {
+  background-color: #0056b3;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.settings label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.settings input[type='range'] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.settings input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.generate-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+  }
+
+  .settings {
+    align-items: center;
+  }
+
+  .generate-btn,
+  .copy-btn {
+    width: 100%;
+  }
+}
